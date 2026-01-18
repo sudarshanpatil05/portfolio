@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.HTML{
+    scroll-behavior: smooth;
+}
+/* header section */
+.Menu-bar{
+    display: flex;
+    align-items: center;
+}
+
+.Menu-bar h4 {
+ margin-left: 20px;
+}
+.Menu-bar nav{
+
+   margin-left: 200px;
+}
+
+.contenar{
+    color: white;
+    background-color: rgb(171, 161, 161);
+    padding-bottom: 30%;
+    padding-top: 5%;
+}
+.contenar, .INFO{
+    padding: 50px;
+}
+
+.personal-details {
+    display: flex;
+    align-items: center;      /* vertical center */
+    gap: 40px;                /* space between image & text */
+    padding: 40px;
+}
+.profile-image img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.profile-text {
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 1.6;
+}
